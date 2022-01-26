@@ -1,0 +1,8 @@
+version: '3'
+services:
+  main:
+    build: .
+    volumes:
+      - ./output:/home/circleci/opencv-4.5.5/platforms/output
+      - ./libc++_shared:/home/circleci/opencv-4.5.5/platforms/libc++_shared
+    command: ./build.sh
