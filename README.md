@@ -6,16 +6,12 @@ It includes only [core,imgcodecs,imgproc and java](https://github.com/tfandkusu/
 
 ## Size of libopencv_java4.so
 
-
 | Architecture | [Official build](https://github.com/opencv/opencv/releases/tag/4.5.5) | This build |
 | --- | --- | --- |
-| arm64-v8 | 17M | 8.2M |
-| armeabi-v7a | 11M | 5.3M |
-| x86_64 | 51M  | 12M |
-| x86 | 36M | 10M |
-
-
-
+| arm64-v8 | 17M | 8.9M |
+| armeabi-v7a | 11M | 5.7M |
+| x86_64 | 51M  | 13M |
+| x86 | 36M | 11M |
 
 ## Usage
 
@@ -24,11 +20,3 @@ It includes only [core,imgcodecs,imgproc and java](https://github.com/tfandkusu/
 docker compose build
 docker compose run main
 ```
-
-## Output
-
-| Directory | Contents |
-| --- | --- |
-| output/OpenCV-android-sdk | OpenCV Android SDK |
-| libc++_shared | libc++_shared.so |
-
