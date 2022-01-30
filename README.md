@@ -2,7 +2,7 @@
 
 Docker image to build [OpenCV](https://github.com/opencv/opencv) Android SDK.
 Size of shared library `libopencv_java4.so` is reduced.
-It includes only [core,imgcodecs,imgproc and java](https://github.com/tfandkusu/opencv_android_reduced_docker/blob/2b653c4e4f07a8f1c524884cc4e92f2ce16f5b36/build.sh#L3) modules.
+It includes only [core,imgcodecs,imgproc and java](https://github.com/tfandkusu/opencv_android_reduced_docker/blob/42041b37dd9747fe0b85eae5e989037b62c5027a/docker-compose.yml#L7) modules.
 And this use static library as C++ runtime.
 
 ## Size of libopencv_java4.so
