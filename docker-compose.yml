@@ -4,5 +4,4 @@ services:
     build: .
     volumes:
       - ./output:/home/circleci/opencv-4.5.5/platforms/output
-      - ./libc++_shared:/home/circleci/opencv-4.5.5/platforms/libc++_shared
     command: android/build_sdk.py output --no_samples_build --modules_list core,imgcodecs,imgproc,java
